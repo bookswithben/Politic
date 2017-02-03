@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445E43281E44E2840044C419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E43271E44E2840044C419 /* main.m */; };
+		445E432B1E44E2840044C419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E432A1E44E2840044C419 /* AppDelegate.m */; };
+		445E432E1E44E2840044C419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E432D1E44E2840044C419 /* ViewController.m */; };
+		445E43311E44E2840044C419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445E432F1E44E2840044C419 /* Main.storyboard */; };
+		445E43331E44E2840044C419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445E43321E44E2840044C419 /* Assets.xcassets */; };
+		445E43361E44E2840044C419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445E43341E44E2840044C419 /* LaunchScreen.storyboard */; };
+		445E43411E44E2850044C419 /* PoliticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E43401E44E2850044C419 /* PoliticTests.m */; };
+		445E434C1E44E2850044C419 /* PoliticUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445E434B1E44E2850044C419 /* PoliticUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445E433D1E44E2850044C419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445E431B1E44E2840044C419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445E43221E44E2840044C419;
+			remoteInfo = Politic;
+		};
+		445E43481E44E2850044C419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445E431B1E44E2840044C419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445E43221E44E2840044C419;
+			remoteInfo = Politic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445E43231E44E2840044C419 /* Politic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Politic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445E43271E44E2840044C419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445E43291E44E2840044C419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		445E432A1E44E2840044C419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		445E432C1E44E2840044C419 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		445E432D1E44E2840044C419 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		445E43301E44E2840044C419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445E43321E44E2840044C419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445E43351E44E2840044C419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445E43371E44E2840044C419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445E433C1E44E2850044C419 /* PoliticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445E43401E44E2850044C419 /* PoliticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoliticTests.m; sourceTree = "<group>"; };
+		445E43421E44E2850044C419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445E43471E44E2850044C419 /* PoliticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445E434B1E44E2850044C419 /* PoliticUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoliticUITests.m; sourceTree = "<group>"; };
+		445E434D1E44E2850044C419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445E43201E44E2840044C419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E43391E44E2850044C419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E43441E44E2850044C419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445E431A1E44E2840044C419 = {
+			isa = PBXGroup;
+			children = (
+				445E43251E44E2840044C419 /* Politic */,
+				445E433F1E44E2850044C419 /* PoliticTests */,
+				445E434A1E44E2850044C419 /* PoliticUITests */,
+				445E43241E44E2840044C419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445E43241E44E2840044C419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445E43231E44E2840044C419 /* Politic.app */,
+				445E433C1E44E2850044C419 /* PoliticTests.xctest */,
+				445E43471E44E2850044C419 /* PoliticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445E43251E44E2840044C419 /* Politic */ = {
+			isa = PBXGroup;
+			children = (
+				445E43291E44E2840044C419 /* AppDelegate.h */,
+				445E432A1E44E2840044C419 /* AppDelegate.m */,
+				445E432C1E44E2840044C419 /* ViewController.h */,
+				445E432D1E44E2840044C419 /* ViewController.m */,
+				445E432F1E44E2840044C419 /* Main.storyboard */,
+				445E43321E44E2840044C419 /* Assets.xcassets */,
+				445E43341E44E2840044C419 /* LaunchScreen.storyboard */,
+				445E43371E44E2840044C419 /* Info.plist */,
+				445E43261E44E2840044C419 /* Supporting Files */,
+			);
+			path = Politic;
+			sourceTree = "<group>";
+		};
+		445E43261E44E2840044C419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445E43271E44E2840044C419 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445E433F1E44E2850044C419 /* PoliticTests */ = {
+			isa = PBXGroup;
+			children = (
+				445E43401E44E2850044C419 /* PoliticTests.m */,
+				445E43421E44E2850044C419 /* Info.plist */,
+			);
+			path = PoliticTests;
+			sourceTree = "<group>";
+		};
+		445E434A1E44E2850044C419 /* PoliticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				445E434B1E44E2850044C419 /* PoliticUITests.m */,
+				445E434D1E44E2850044C419 /* Info.plist */,
+			);
+			path = PoliticUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445E43221E44E2840044C419 /* Politic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445E43501E44E2850044C419 /* Build configuration list for PBXNativeTarget "Politic" */;
+			buildPhases = (
+				445E431F1E44E2840044C419 /* Sources */,
+				445E43201E44E2840044C419 /* Frameworks */,
+				445E43211E44E2840044C419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Politic;
+			productName = Politic;
+			productReference = 445E43231E44E2840044C419 /* Politic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445E433B1E44E2850044C419 /* PoliticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445E43531E44E2850044C419 /* Build configuration list for PBXNativeTarget "PoliticTests" */;
+			buildPhases = (
+				445E43381E44E2850044C419 /* Sources */,
+				445E43391E44E2850044C419 /* Frameworks */,
+				445E433A1E44E2850044C419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445E433E1E44E2850044C419 /* PBXTargetDependency */,
+			);
+			name = PoliticTests;
+			productName = PoliticTests;
+			productReference = 445E433C1E44E2850044C419 /* PoliticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		445E43461E44E2850044C419 /* PoliticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445E43561E44E2850044C419 /* Build configuration list for PBXNativeTarget "PoliticUITests" */;
+			buildPhases = (
+				445E43431E44E2850044C419 /* Sources */,
+				445E43441E44E2850044C419 /* Frameworks */,
+				445E43451E44E2850044C419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445E43491E44E2850044C419 /* PBXTargetDependency */,
+			);
+			name = PoliticUITests;
+			productName = PoliticUITests;
+			productReference = 445E43471E44E2850044C419 /* PoliticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445E431B1E44E2840044C419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = benhamin;
+				TargetAttributes = {
+					445E43221E44E2840044C419 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N35Z2M2E48;
+						ProvisioningStyle = Automatic;
+					};
+					445E433B1E44E2850044C419 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N35Z2M2E48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 445E43221E44E2840044C419;
+					};
+					445E43461E44E2850044C419 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N35Z2M2E48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 445E43221E44E2840044C419;
+					};
+				};
+			};
+			buildConfigurationList = 445E431E1E44E2840044C419 /* Build configuration list for PBXProject "Politic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445E431A1E44E2840044C419;
+			productRefGroup = 445E43241E44E2840044C419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445E43221E44E2840044C419 /* Politic */,
+				445E433B1E44E2850044C419 /* PoliticTests */,
+				445E43461E44E2850044C419 /* PoliticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445E43211E44E2840044C419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E43361E44E2840044C419 /* LaunchScreen.storyboard in Resources */,
+				445E43331E44E2840044C419 /* Assets.xcassets in Resources */,
+				445E43311E44E2840044C419 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E433A1E44E2850044C419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E43451E44E2850044C419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445E431F1E44E2840044C419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E432E1E44E2840044C419 /* ViewController.m in Sources */,
+				445E432B1E44E2840044C419 /* AppDelegate.m in Sources */,
+				445E43281E44E2840044C419 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E43381E44E2850044C419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E43411E44E2850044C419 /* PoliticTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E43431E44E2850044C419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E434C1E44E2850044C419 /* PoliticUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445E433E1E44E2850044C419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445E43221E44E2840044C419 /* Politic */;
+			targetProxy = 445E433D1E44E2850044C419 /* PBXContainerItemProxy */;
+		};
+		445E43491E44E2850044C419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445E43221E44E2840044C419 /* Politic */;
+			targetProxy = 445E43481E44E2850044C419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		445E432F1E44E2840044C419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445E43301E44E2840044C419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		445E43341E44E2840044C419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445E43351E44E2840044C419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445E434E1E44E2850044C419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		445E434F1E44E2850044C419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445E43511E44E2850044C419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N35Z2M2E48;
+				INFOPLIST_FILE = Politic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhamin.Politic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		445E43521E44E2850044C419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N35Z2M2E48;
+				INFOPLIST_FILE = Politic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhamin.Politic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		445E43541E44E2850044C419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N35Z2M2E48;
+				INFOPLIST_FILE = PoliticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhamin.PoliticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Politic.app/Politic";
+			};
+			name = Debug;
+		};
+		445E43551E44E2850044C419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N35Z2M2E48;
+				INFOPLIST_FILE = PoliticTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhamin.PoliticTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Politic.app/Politic";
+			};
+			name = Release;
+		};
+		445E43571E44E2850044C419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N35Z2M2E48;
+				INFOPLIST_FILE = PoliticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhamin.PoliticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Politic;
+			};
+			name = Debug;
+		};
+		445E43581E44E2850044C419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N35Z2M2E48;
+				INFOPLIST_FILE = PoliticUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benhamin.PoliticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Politic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445E431E1E44E2840044C419 /* Build configuration list for PBXProject "Politic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E434E1E44E2850044C419 /* Debug */,
+				445E434F1E44E2850044C419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445E43501E44E2850044C419 /* Build configuration list for PBXNativeTarget "Politic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E43511E44E2850044C419 /* Debug */,
+				445E43521E44E2850044C419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		445E43531E44E2850044C419 /* Build configuration list for PBXNativeTarget "PoliticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E43541E44E2850044C419 /* Debug */,
+				445E43551E44E2850044C419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		445E43561E44E2850044C419 /* Build configuration list for PBXNativeTarget "PoliticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E43571E44E2850044C419 /* Debug */,
+				445E43581E44E2850044C419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445E431B1E44E2840044C419 /* Project object */;
+}
