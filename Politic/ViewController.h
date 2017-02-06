@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIColor+CustomColours.h"
+#import "UnitOneViewController.h"
+#import "UnitTwoViewController.h"
 
 @interface ViewController : UIViewController
-
+@property UILabel *politics;
+@property UIButton *unit1;
+@property UIButton *unit2;
 
 @end
 
